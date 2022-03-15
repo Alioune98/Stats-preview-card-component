@@ -1,44 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.1"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Stats preview card component</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="main">
-    <div class="info-div">
-      <div class="text">
-        <h1>Get <span>insights</span> that help your business grow.</h1>
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
-        <div class="stats">
-          <div id="companies">
-            <h3>10k+</h3>
-            <p class="stat-title">COMPANIES</p>
-          </div>
-          <div id="templates">
-            <h3>314</h3>
-            <p class="stat-title">TEMPLATES</p>
-          </div>
-          <div id="queries">
-            <h3>12M+</h3>
-            <p class="stat-title">QUERIES</p>
+
+  <div class="container">
+      <div class="info-div">
+        <div class="text">
+          <h1 class="insights">Get <span>insights</span> that help your business grow.</h1>
+          <p class="discover">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+          <div class="stats">
+            <div class="item">
+              <h2 class="stat-heading">10k+</h2>
+              <p class="sub-heading">COMPANIES</p>
+            </div>
+            <div class="item">
+              <h2 class="stat-heading">314</h2>
+              <p class="sub-heading">TEMPLATES</p>
+            </div>
+            <div class="item">
+              <h2 class="stat-heading">12M+</h2>
+              <p class="sub-heading">QUERIES</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="photo"><img src="images/image-header-desktop.jpg" alt="">
-      <div class="layer">
-
+      <div class="photo-div">
+        <img src="images/image-header-desktop.jpg" alt="happy coders">
+        <div class="overlay">
+        </div>
       </div>
-    </div>
   </div>
 </body>
 
+<script src="http://localhost:35729/livereload.js">
+</script>
 </html>
