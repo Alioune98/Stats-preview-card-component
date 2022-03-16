@@ -2,6 +2,8 @@
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
+Live website: https://alioune98.github.io/Stats-preview-card-component/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
